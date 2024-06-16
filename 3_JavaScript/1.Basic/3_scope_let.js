@@ -8,7 +8,7 @@
     let number = 30;
     console.log("number:",number);
 }
-// console.log(number); // it will give error beacuse of having block scope
+// console.log(number); // it will give error because of having block scope
 
 // function scope
 function function_scope(){

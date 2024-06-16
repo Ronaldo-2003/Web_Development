@@ -1,6 +1,6 @@
 // Hoisting works
 
-let name = "Ronaldo";
+let name = "Aman";
 function call_name(){
     console.log(name);
 }

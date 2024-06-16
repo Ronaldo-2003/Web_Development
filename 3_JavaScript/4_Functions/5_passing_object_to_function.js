@@ -1,7 +1,7 @@
-// let student = {
-//     name : "Ronaldo",
-//     id : 5403
-// };
+let student = {
+    name : "Ronaldo",
+    id : 5403
+};
 
 function handleObject(anyObject){
     console.log("name:",anyObject.name);

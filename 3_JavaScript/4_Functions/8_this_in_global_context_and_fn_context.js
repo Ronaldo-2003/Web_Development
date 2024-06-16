@@ -2,7 +2,7 @@
 
 global.myGlobalObject = {
     message : "Hello from GlobalObject"
-}
+};
 
 console.log(global.myGlobalObject.message);  // Hello from GlobalObject
 

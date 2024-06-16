@@ -17,7 +17,7 @@ function global_scope(){
     console.log("title:",title);
 }
 global_scope();
-console.log("title:",title); // will give what is stored in title beacuse of its global scope 
+console.log("title:",title); // will give what is stored in title because of its global scope 
 
 // var supports hoisting i.e. any variable can be used before its declartion but it will give undefined
 
@@ -33,11 +33,11 @@ console.log("age:",age);
 }
 console.log("number:",number); // will print value of number because it doesnt support local scope
 
-// var can be re-initialise as well as redefined
+// var can be re-initialise as well as redeclared
 var branch = "CSE";
 console.log("branch:",branch);
 
-var branch = "ECE";  // redefining 
+var branch = "ECE";  // redeclaring
 console.log("branch:",branch)
 
 branch = "EEE";  // re-initialise

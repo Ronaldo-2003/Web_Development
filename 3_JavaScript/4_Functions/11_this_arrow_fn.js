@@ -24,7 +24,7 @@
 
 //creating a function having lexical scope 
 function outerFunction(){
-    this.name = "Ronaldo";  // this.name refers that name is a proeperty of outerFunction
+    this.name = "Ronaldo";  // this.name refers that name is a property of outerFunction
     this.age = 20;          // without this , they are just variables defined in the scope of the function
     this.branch = "CSE";
 

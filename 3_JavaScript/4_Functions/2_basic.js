@@ -26,9 +26,9 @@ const result = addTwoNumbers(3, 5);
 // console.log("result: ", result);
 
 
-function loginUserMessage(username ){
+function loginUserMessage(username){
     if(!username){
-        console.log("PLease enter a username");
+        console.log("Please enter a username");
         return;
     }
     return (`${username} just logged in`);

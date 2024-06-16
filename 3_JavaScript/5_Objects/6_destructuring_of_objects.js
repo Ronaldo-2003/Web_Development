@@ -15,7 +15,7 @@ let student = {
 console.log(`student_age: ${student.age}`);  // accesing the properties of object
 
 // but here is a problem that every time we have to write student then using dot operator to access age property
-// we can ovwrcome this by destructuring of objects
+// we can overcome this by destructuring of objects
 
 let {age} = student;
 console.log(`student_age: ${age}`);

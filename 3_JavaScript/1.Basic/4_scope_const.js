@@ -27,7 +27,7 @@ print_age();
 
 // if we are declaring any variable with const , it has to be intialise during definition and can't be reassigned
 
-// const game ; // can,t be done like that
+// const game ; // can't be done like that
 // game = "cricket";
 
 const fruit = "mango";
@@ -50,3 +50,5 @@ for(i=0;i<arr.length;i++){
 // Use const by default for variables that should not be reassigned.
 // Use let when you expect the variable's value to change.
 // Avoid using var in modern JavaScript because it can lead to unexpected behavior due to hoisting and function scope.
+
+console.log(arr.join(' ')); // to print in same line

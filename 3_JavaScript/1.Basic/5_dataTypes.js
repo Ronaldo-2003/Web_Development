@@ -10,7 +10,7 @@ let d2=true;
 console.log("data type of c1 is:",typeof(c1));
 console.log("data type of d1 is:",typeof(d2));
 
-// Typecasting(explicitly)
+// Typecasting(explicitly)  
 console.log("integral value of true is:",Number(true));
 console.log("integral value of false is:",Number(false));
 

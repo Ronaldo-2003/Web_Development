@@ -31,5 +31,5 @@ console.log(z1/z2); // 3
 console.log(z1-z2); // 8
 console.log(z1+z2); // 124
 
-let m1=Boolean(' '); // non-zero will be true
+let m1=Boolean(' '); // non-zero or space will be true
 console.log(m1);

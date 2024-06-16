@@ -16,5 +16,6 @@ console.log("marks3:",marks3);
 // returns an array from a list of elements
 let marks_arr = Array.of(marks1, marks2, marks3);
 console.log("marks_arr:",marks_arr);
+console.log("Is marks_arr array or not:", Array.isArray(marks_arr));
 
 console.log(Array.from({name:"Ronaldo"}));  // because it is not able to convert it into array , it is returning an empty array

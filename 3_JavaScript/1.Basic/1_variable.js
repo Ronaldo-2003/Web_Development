@@ -18,4 +18,4 @@ let y =8;
 let z = x*y;
 
 console.log(`Product of ${x} and ${y} is ${z}`); // we are using back ticks to use template literals
-// using template lietrals allow us to include expressions in string 
+// using template literals allow us to include expressions in string 

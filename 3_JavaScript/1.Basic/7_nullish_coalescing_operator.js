@@ -1,6 +1,6 @@
 // It has been included in ES 11 (2020)
-// nullish coalescing operator -> works on null and undefined value i.e. if value accessed is null or undefined , it 
-// will fetch a default value which we will be providing
+// nullish coalescing operator -> works on null, undefined and undeclared value i.e. if value accessed is null , undefined 
+// or undeclared, it will fetch a default value which we will be providing
 
 
 let Student = {
